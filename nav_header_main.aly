@@ -1,0 +1,35 @@
+{
+  LinearLayoutCompat,
+  layout_width="fill",
+  layout_height="176dp",
+  gravity="bottom",
+  id="nav_header",
+  orientation="vertical",
+  paddingLeft="16dp",
+  paddingTop="16dp",
+  paddingRight="16dp",
+  paddingBottom="8dp",
+  {
+    AppCompatImageView,
+    id="imageView",
+    layout_width="100dp",
+    layout_height="wrap",
+    layout_weight=1,
+    paddingTop="0dp",
+    imageResource=R.drawable.icon,
+  },
+  {
+    AppCompatTextView,
+    layout_width="fill",
+    layout_height="wrap",
+    paddingTop="8dp",
+    text=this.getTitle(),
+  },
+  {
+    AppCompatTextView,
+    id="textView",
+    layout_width="wrap",
+    layout_height="wrap",
+    text="邮箱(1447017701@qq.com)",
+  }
+}

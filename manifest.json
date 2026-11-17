@@ -1,0 +1,32 @@
+{
+  "versionName": "1.0",
+  "versionCode": "1",
+  "uses_sdk": {
+    "minSdkVersion": "21",
+    "targetSdkVersion": "29"
+  },
+  "package": "myluaapp.luafox",
+  "application": {
+    "label": "LuaFox",
+    "debugmode": false
+  },
+  "user_permission": [
+    "WRITE_EXTERNAL_STORAGE",
+    "READ_EXTERNAL_STORAGE",
+    "INTERNET"
+  ],
+  "compilation": true,
+  "skip_compilation": [],
+  "jmp": {
+    "encryption": false,
+    "dump_obfuscate": false
+  },
+  "protection": {
+    "profile": "standard",
+    "integrityAction": "warn"
+  },
+  "print": {
+    "type": "Snackbar",
+    "copy": true
+  }
+}
